@@ -1,3 +1,9 @@
 public abstract class TextDecorator implements TextComponent{
-    PlainText text;
+    //a
+    protected TextComponent component;
+    //c
+    TextDecorator(TextComponent component){
+        this.component = component;
+    }
+    //m
 }

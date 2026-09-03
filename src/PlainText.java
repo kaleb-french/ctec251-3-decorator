@@ -1,6 +1,10 @@
 public class PlainText implements TextComponent{
-    protected String textField;
-
+    //a
+    protected String text;
+    //c
+    PlainText(String text){
+        this.text = text;
+    }
 	@Override
 	public String getText() {
 		// TODO Auto-generated method stub
